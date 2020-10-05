@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+#button {
+    text-align: center;
+}
+
+.parent {
+    display: grid;
+    place-items: center;
+  }

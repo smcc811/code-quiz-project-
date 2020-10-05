@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="container text-right">
+      <div class="row">
+          <div class="col-sm-12" id="test">mytime</div>>          
+      </div>
+    </div>
+    <br>
+    <br>
+
+<!-- main page which will be removed on click of start button-->
+
+    <div class="container" id="welcome">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1 class="text-center">question and answer page</h1>         
+          <h4 class="text-center">please click start button to begin</h4>  
+          <button id="button">start</button>  
+          <br>
+          <br>     
+        </div>
+      </div>
+    </div>
+    
+<!-- NFL  page-->    
+
+    <div class="container text-center" id= "nfl">
+         <div class=" text-center">      
+            <h2 class= "text-center", id="nflQuestion"></h2>
+         </div>
+         <div class=" text-center">   
+            <div class="text-center" id="proTeamCity"></div> 
+         </div>
+            <h4 class= "text-center", id="trash"></h4>                     
+         </div>
+    </div>
+
+    <!-- NCAA PAGE-->
+
+    <div class="container text-center" id= "ncaa">
+      <div class=" text-center">      
+        <div class=" text-center">      
+          <h2 class= "text-center", id="ncaaQuestion"></h2>
+       </div>
+       <div class= "text-center">
+         <div class="text-center" id="ncaaConference"></div> 
+       </div>  
+         <h4 class= "text-center", id="collegeTrash"></h4>                     
+      </div>
+ </div>
+
+
+ <!-- HEISMAN PAGE -->
+
+ <div class="container text-center" id= "Heisman">
+  <div class=" text-center">      
+    <div class=" text-center">      
+      <h2 class= "text-center", id="heismanQuestion"></h2>
+   </div>
+   <div class= "text-center">
+     <div class="text-center" id="heismanWinner"></div> 
+   </div>  
+     <h4 class= "text-center", id="HeismanTrash"></h4>                     
+  </div>
+</div>
+
+<!-- SYRACUSE UNIVERSITY PAGE -->
+
+<div class="container text-center" id= "syracuse">
+  <div class=" text-center">      
+    <div class=" text-center">      
+      <h2 class= "text-center", id="orangeMen"></h2>
+   </div>
+   <div class= "text-center">
+     <div class="text-center" id="accConference"></div> 
+   </div>  
+     <h4 class= "text-center", id="syracuseTrash"></h4>                     
+  </div>
+</div>
+
+
+<div class="container text-center" id= "finish"  style="display: none">
+  <div> <h2 id="scoreAnswer"></h2></div>
+  <br>
+  <div class="row">      
+    <div class ="col-sm-12">
+        <label style=color:blue id="name" class="fname">please enter name and score please:</label><br>
+    </div>    
+  <br>  
+  <div class="row">
+      <input class="parent" type="text" id="nameAnswer"  value= " "> <br> 
+  </div>
+  <br>
+  <div> <h2 id="storageAnswer"></h2></div>
+  <div class="row">
+    <div class = "col-sm-12">  
+      <button id="input">input</button>
+      <button id="retrieve">retrieve</button>
+    </div> 
+  </div>   
+</div>   
+
+
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
